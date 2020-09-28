@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tiles
+    uniqueID: 1971659883
+    locked: 0
+  - name: Tile Items
+    uniqueID: 3467827019
+    locked: 0
+  - name: Effects
+    uniqueID: 3917415269
+    locked: 0
+  - name: Characters
+    uniqueID: 2705653057
+    locked: 0
+  - name: Equipment
+    uniqueID: 951453247
+    locked: 0
+  - name: UI
+    uniqueID: 266456255
+    locked: 0

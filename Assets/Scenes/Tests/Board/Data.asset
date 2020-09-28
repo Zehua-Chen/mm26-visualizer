@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e7e37fde553104193a353b78e0baae, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  InitialState:
+    Board:
+      Name: pvp
+      Height: 3
+      Width: 3
+      Grid:
+      - TileType: 1
+        GroundSprite: mm26_tiles/dirt1.png
+        AboveSprite: mm26_tiles/darktree1.png
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/dirt2.png
+        AboveSprite: 
+        HasItems: 1
+      - TileType: 1
+        GroundSprite: mm26_tiles/arch rear right.png
+        AboveSprite: 
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/darktree3.png
+        AboveSprite: mm26_tiles/door2.png
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/basicwall1.png
+        AboveSprite: 
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/basicwall1.png
+        AboveSprite: mm26_tiles/door2.png
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/basicwall2.png
+        AboveSprite: 
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/basicwall1.png
+        AboveSprite: 
+        HasItems: 0
+      - TileType: 1
+        GroundSprite: mm26_tiles/darktree4.png
+        AboveSprite: 
+        HasItems: 0
+    Characters:
+    - Name: Player A
+      CharacterType: 0
+      SpritePath: 
+      Board: pvp
+      X: 0
+      Y: 0
+    - Name: Monster B
+      CharacterType: 1
+      SpritePath: mm26_tiles/uniboar_v2.png
+      Board: pvp
+      X: 2
+      Y: 2
+    - Name: Player C
+      CharacterType: 0
+      SpritePath: 
+      Board: other
+      X: 0
+      Y: 0
+  Turns:
+  - State:
+      Board:
+        Name: 
+        Height: 0
+        Width: 0
+        Grid: []
+      Characters: []
+    Change:
+      CharacterChanges:
+      - Entity: Player A
+        Died: 0
+        Respawned: 0
+        DecisionType: 5
+        Path: []
