@@ -1,5 +1,7 @@
 # Mechmania 26 Visualizer
 
+![Screen Shot](ScreenShot.png)
+
 - Unity 2019.4.1f1 (LTS)
 
 # Manual
